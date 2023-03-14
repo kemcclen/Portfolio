@@ -110,9 +110,32 @@
    margin-right: auto;
   }
 
-  
+
+/*---------------------------------------ABOUT ME*/
+ .about-me {
+  position: relative;
+  background-image: url(./images/blurb-back.jpeg);
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  min-height: 400px;
+  padding: 25px;
+  background-position: center;
+}
+
+.about-me h2 {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-me p {
+  font-size: 25px;
+  margin:auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
   /*---------------------------------------FOOTER*/
-  /*inline??????*/
   .footer {
     padding-top: 10px;
     display: flex;
@@ -160,14 +183,14 @@
     float:right;
     display:inline-flex;
   }
-
+/* 
   .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     margin-left: -1.5rem;
     margin-right: -1.5rem;
-  }
+  } */
 
   /* @media screen and (max-width:992px) {
 .card {
