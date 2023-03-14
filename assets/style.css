@@ -13,16 +13,23 @@
     text-decoration: none;
   }
   
-  img {
-    max-width: 100%;
-    height: auto;
+  p {
+    font-family: 'Open Sans', sans-serif;
   }
+ 
+  
   /*--------------------------------NAV BAR*/
+  /*HOW TO MAKE NAV STACK UNDER NAME WHEN MADE SMALLER????*/
   header {
-    background-color: peachpuff;
+  
     display: flex;
     justify-content: flex-end;
-     } 
+    position: fixed;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: pink;
+    z-index: 1;
+    } 
 
  nav {
     height: 60px;
@@ -30,19 +37,17 @@
     justify-content: flex-end;
     align-items: center;
     margin: 10px; 
-    position: fixed;
-    width: 100%;
     overflow: hidden;
     flex-direction: row;
+    position: fixed;
   }
 
-  .header h1 {
+  header h1 {
     padding: 20px;
     width: 100%;
     color: black;
     font-size: 48px;
-    font-weight:lighter;
-    font-family: 'Open Sans', sans-serif;
+    font-weight:lighter; 
   }
   
   nav li {
@@ -60,10 +65,54 @@
   }
   
   .nav-link:hover {
-    color: pink;
+    color: hotpink;
+  }
+  /*----------------------------------------HERO*/
+  .hero img{
+    width: 100%;
+    height: 140px;
+  }
+  /*---------------------------------------WELCOME*/
+  /*spave evenly and move???*/
+  .welcome {
+    
+    display: block;
+    padding: 20px;
+    margin-top: 200px;
+    text-align: center;
+    float: left;
+    justify-content: space-evenly;
+    margin-left: auto;
+   margin-right: auto;
+   font-family: 'Open Sans', sans-serif;
+  }
+  .welcome h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    display: block;
   }
 
+  .welcome h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .welcome h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .devimage img {
+   height: 500px;
+   width: 500px;
+   display: block;
+  max-width: 500px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+  
   /*---------------------------------------FOOTER*/
+  /*inline??????*/
   .footer {
     padding-top: 10px;
     display: flex;
@@ -73,7 +122,7 @@
   }
   
   .footer-container {
-    background-color: peachpuff;
+    background-color: pink;
     width: 100%;
     padding: 20px;
   }
@@ -88,7 +137,7 @@
     font-family: 'Open Sans', sans-serif;
   }
   
-  .footer-link {
+  .contact {
     justify-content:flex-end;
     flex-direction: row;
     font-family: 'Open Sans', sans-serif;
@@ -98,12 +147,12 @@
     margin-right: 5px;;
   }
   
-  .footer-link:hover {
-    color: pink;
+  .contact:hover {
+    color: hotpink;
   }
   
   
-  .footer-title, .footer-subtitle, .footer-link {
+  .footer-title, .footer-subtitle, .contact {
     color: black;
   }
  
@@ -112,4 +161,16 @@
     display:inline-flex;
   }
 
-  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  /* @media screen and (max-width:992px) {
+.card {
+
+}
+  } */
