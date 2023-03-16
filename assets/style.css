@@ -224,7 +224,6 @@
 }
 
 .work-samples .sample::before, .stand-alone .sample::before {
-    content: '';
     position: absolute;
     top: 0;
     left: 0;
