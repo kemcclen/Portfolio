@@ -16,8 +16,15 @@
   p {
     font-family: 'Open Sans', sans-serif;
   }
+
+  /*----------------------------------VARIABLES*/
+  :root {
+    --dark-pink: #C71585;
+    --white-pink: #FFF5EE;
+    --light-pink: #fad9e4; 
+    --darkest-pink: #302025;
+  }
  
-  
   /*--------------------------------NAV BAR*/
 
   header {
@@ -45,7 +52,7 @@
   header h1 {
     padding: 20px;
     width: 100%;
-    color: black;
+    color: var(--darkest-pink);
     font-size: 48px;
     font-weight:lighter; 
   }
@@ -62,12 +69,11 @@
     margin: 10px;
     text-align: center;
     display: inline-block;
- 
     font-family: 'Open Sans', sans-serif;
   }
   
   .nav-link:hover {
-    color: hotpink;
+    color: var(--dark-pink);
   }
 
 @media only screen and (max-width: 555px) {
@@ -134,6 +140,7 @@
   font-size: 70px;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 15px;
 }
 
 .about-me p {
@@ -141,6 +148,23 @@
   margin:auto;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  line-height: 40px;
+}
+@media only screen and (max-width: 555px) {
+  .about-me h2 {
+    display: block;
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .about-me p {
+    display: block;
+    font-size: 12px;
+    width: 100%;
+  }
 }
 /*------------------------------------------WORK*/
 
@@ -159,10 +183,15 @@
     font-size: 1.4em;
     text-transform: uppercase;
     margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color:var(--darkest-pink);
+    
 }
 
 .text-content p {
     line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    color:var(--darkest-pink);
 }
 
 .work-section, .stand-alone {
@@ -171,7 +200,7 @@
 }
 
 .work-section a {
-    color: black;
+    color: var(--darkest-pink)
 }
 
 .work-samples {
@@ -245,7 +274,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* position: sticky; */
     margin-bottom: 40px;
   }
   
@@ -278,11 +306,11 @@
   }
   
   .contact:hover {
-    color: hotpink;
+    color: var(--dark-pink);
   }
   
   .footer-title, .footer-subtitle, .contact {
-    color: black;
+    color: var(--darkest-pink);
   }
  
   .footer-contact {
