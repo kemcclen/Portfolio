@@ -12,4 +12,4 @@ N/A
 ## Assets 
 The following video shows the web application's appearance and functionality:
 
-![portfolio demo](./assets/images/screen-recording.mov)
+![portfolio demo](./assets/images/Portfolio.mp4)
