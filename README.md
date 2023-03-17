@@ -12,4 +12,6 @@ N/A
 ## Assets 
 The following video shows the web application's appearance and functionality:
 
-![portfolio demo](./assets/images/Portfolio.mp4)
+
+https://user-images.githubusercontent.com/123762040/225791739-ebbfb5bd-6545-4553-a879-48938bdddede.mp4
+
